@@ -153,8 +153,8 @@ const submitBtn = document.getElementById('form-submit-btn');
 contactForm?.addEventListener('submit', function (e) {
   e.preventDefault();
 
-  const name    = document.getElementById('form-name')?.value.trim();
-  const email   = document.getElementById('form-email')?.value.trim();
+  const name = document.getElementById('form-name')?.value.trim();
+  const email = document.getElementById('form-email')?.value.trim();
   const subject = document.getElementById('form-subject')?.value.trim();
   const message = document.getElementById('form-message')?.value.trim();
 
@@ -252,5 +252,5 @@ document.body.appendChild(trail);
 
 document.addEventListener('mousemove', (e) => {
   trail.style.left = e.clientX + 'px';
-  trail.style.top  = e.clientY + 'px';
+  trail.style.top = e.clientY + 'px';
 }, { passive: true });
