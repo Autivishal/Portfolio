@@ -561,6 +561,12 @@ section {
   animation-delay: -1s;
 }
 
+.card-database {
+  left: -20px;
+  bottom: 40px;
+  animation-delay: -1.5s;
+}
+
 @keyframes floatCard {
 
   0%,
@@ -887,11 +893,11 @@ section {
 }
 
 .project-link-secondary {
-  color: var(--text-muted);
+  color: var(--accent);
 }
 
 .project-link-secondary:hover {
-  color: var(--text-primary);
+  color: var(--primary);
 }
 
 /* ── CONTACT ──────────────────────────── */
@@ -1135,7 +1141,8 @@ footer {
 
   .card-react,
   .card-ai,
-  .card-deploy {
+  .card-deploy,
+  .card-database {
     display: none;
   }
 }
